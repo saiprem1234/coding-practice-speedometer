@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .speed-heading {
+    font-size: 35px;
+  }
+}
+.speed-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  align-items: center;
+}
+img {
+  width: 60%;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+button {
+  padding: 8px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 300px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.acceleration {
+  background-color: #0b69ff;
+  border: 0;
+}
+.brakes {
+  background-color: transparent;
+  border: solid 1px #ffffff;
+}
